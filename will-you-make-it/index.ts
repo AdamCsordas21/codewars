@@ -1,3 +1,2 @@
-export const zeroFuel = (distance: number, mpg: number, fuelLeft: number): boolean => {
-  return (distance / mpg) <= fuelLeft ? true : false
-}
+export const zeroFuel = (distance: number, mpg: number, fuelLeft: number): boolean =>
+  (distance / mpg) <= fuelLeft ? true : false
