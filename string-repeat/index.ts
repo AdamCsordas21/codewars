@@ -1,3 +1,1 @@
-export const repeatStr = (n: number, s: string): string => {
-  return s.repeat(n)
-}
+export const repeatStr = (n: number, s: string): string => s.repeat(n)
