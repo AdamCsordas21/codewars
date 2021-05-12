@@ -1,3 +1,1 @@
-export const stringToArray = (input: string): string[] => {
-  return input.split(' ')
-}
+export const stringToArray = (input: string): string[] => input.split(' ')
