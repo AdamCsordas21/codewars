@@ -1,3 +1,1 @@
-export const numberToString = (input: number) => {
-  return input.toString()
-}
+export const numberToString = (input: number) => input.toString()
