@@ -1,3 +1,1 @@
-export const digitize = (input: number): number[] => {
-  return Array.from(input.toString()).map(Number).reverse()
-}
+export const digitize = (input: number): number[] => Array.from(input.toString()).map(Number).reverse()
